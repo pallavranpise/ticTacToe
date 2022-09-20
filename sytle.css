@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.container{
+    margin: auto;
+    width:20vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10px;
+
+}
+
+.container>div{
+    width: 100px;
+    height: 100px;
+    
+    background-color: red;
+
+}
